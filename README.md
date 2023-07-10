@@ -22,4 +22,6 @@ Atualização 04/04/23:
   
 Kanjis agora mergidos com sucesso! Mais detalhes nos commits de hoje. Principais mehorias a serem feitas: visual (de preferencia deixar agradavel tanto para mobile quanto PC, pois no momento não foi feito utilizando a tela cheia do PC); código (nomear variáveis, criar funções para ações repetitivas, reduzir "console.log"); corrijir Kanas e Kanjis que não tenham 1 ou 3 objetos; corrigir alguns erros de digitação de Kanas e acrescentar os que estão faltando 	
   
-Recursos extras a médio prazo: adicionar imagem aos Kanjis; adicionar um banco de dados ou API com diversos Kanjis no projeto; informações sobre os Kanjis (frases de exemplo, pronuncias, etc) ao passar cursor do mouse ou clicar 
+Recursos extras a médio prazo: adicionar imagem aos Kanjis; adicionar um banco de dados ou API com diversos Kanjis no projeto; informações sobre os Kanjis (frases de exemplo, pronuncias, etc) ao passar cursor do mouse ou clicar. 
+
+Deploy no Vercel em 10/07/23
