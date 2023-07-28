@@ -11,7 +11,7 @@ h1 {
 .alphabet-title{			
 	font-size: 30px;		
 /*	display: inline-block;	*/	
-	padding: 5% 10% 10% 10%;		
+	padding: 2% 5% 5% 5%;		
 	font-weight: bold;		
 	position: absolute;		
 	left: 5%;		
@@ -21,17 +21,17 @@ h1 {
 .kanas-title{			
 	font-size: 30px;		
 /*	display: inline-block;	*/	
-	padding: 5% 10% 10% 10%;		
+	padding: 2% 5% 5% 5%;		
 	font-weight: bold;		
 	position: absolute;		
-	left: 35%;		
+	left: 40%;		
 			
 }			
 			
 .kanji-title{			
 	font-size: 30px;		
 /*	display: inline-block;	*/	
-	padding: 5% 10% 10% 10%;		
+	padding: 2% 5% 5% 5%;		
 	font-weight: bold;		
 	position: absolute;		
 	right: 5%;		
@@ -41,11 +41,11 @@ h1 {
 .alphabet{			
 /*	display: inline-block;	*/	
 	position: absolute;		
-	top: 40%;		
+	top: 45%;		
 	left: 10%;		
 	width: 10%;		
-			
-			
+	margin: 0.1% 0 10% 0;	
+	padding: 1% 0;								
 }			
 			
 .alphabet button {			
@@ -65,8 +65,8 @@ h1 {
 .kana{			
 /*	display: inline-block;	*/	
 	position: absolute;		
-	top: 40%;		
-	left: 40%;		
+	top: 45%;
+	left: 45%;		
 	width: 10%;		
 			
 			
@@ -88,7 +88,7 @@ h1 {
 			
 .kanji{			
 	position: absolute;		
-	top: 40%;		
+	top: 45%;	
 	left: 80%;		
 	width: 10%;		
 			
@@ -150,3 +150,156 @@ h1 {
 	text-align: center;		
 }			
 			
+@media (max-width: 768px) {
+	h1 {			
+		text-align: center;		
+		font-size: 40px;		
+		font-weight: bold;		
+		text-decoration: underline;		
+		padding: 5%;		
+				
+				
+	}			
+				
+	.alphabet-title{			
+		font-size: 30px;		
+	/*	display: inline-block;	*/	
+		padding: 5% 10% 10% 10%;		
+		font-weight: bold;		
+		position: absolute;		
+		left: 5%;		
+				
+	}			
+				
+	.kanas-title{			
+		font-size: 30px;		
+	/*	display: inline-block;	*/	
+		padding: 5% 10% 10% 10%;		
+		font-weight: bold;		
+		position: absolute;		
+		left: 35%;		
+				
+	}			
+				
+	.kanji-title{			
+		font-size: 30px;		
+	/*	display: inline-block;	*/	
+		padding: 5% 10% 10% 10%;		
+		font-weight: bold;		
+		position: absolute;		
+		right: 5%;		
+				
+	}			
+				
+	.alphabet{			
+	/*	display: inline-block;	*/	
+		position: absolute;		
+		top: 30%;		
+		left: 10%;		
+		width: 10%;		
+				
+				
+	}			
+				
+	.alphabet button {			
+		color: blue;		
+		font-size: 30px;		
+		padding: 1%;		
+		font-weight: bold;		
+		width: 100%;		
+		box-sizing: border-box;		
+		text-align: center;		
+		margin: 0.1% 10%;		
+		border: 1px solid black;		
+		display: inline-block;		
+				
+	}			
+				
+	.kana{			
+	/*	display: inline-block;	*/	
+		position: absolute;		
+		top: 30%;		
+		left: 45%;		
+		width: 10%;		
+				
+				
+	}			
+				
+	.kana-button{		
+		color: blue;	
+		font-size: 25px;	
+		padding: 1%;	
+		font-weight: bold;	
+		width: 100%;	
+		box-sizing: border-box;	
+		text-align: center;		
+		margin: 0.1% 10% 10% 10%;		
+		border: 1px solid black;		
+		display: inline-block;		
+				
+	}			
+				
+	.kanji{			
+		position: absolute;		
+		top: 30%;		
+		left: 80%;		
+		width: 10%;		
+				
+	}			
+				
+	.kanji-button{			
+		color: orange;		
+		font-size: 30px;		
+		padding: 1%;		
+		font-weight: bold;		
+		width: 100%;		
+		box-sizing: border-box;		
+		text-align: center;		
+		margin: 0.1% 10% 20% 10%;		
+		border: 1px solid black;		
+		display: inline-block;		
+		background-color: black;		
+	}			
+				
+	.kanji-section-kana-sounds{			
+		color: orange;		
+		font-size: 20px;		
+		padding: 1%;		
+		font-weight: bold;		
+		width: 60%;		
+		box-sizing: border-box;		
+		text-align: center;		
+		margin: 0.1% auto;		
+		display: flex;		
+		justify-content: center;		
+		text-align: center;		
+	}			
+				
+	.kanji-section-letters-sounds{			
+		color: orange;		
+		font-size: 15px;		
+		padding: 1%;		
+		font-weight: bold;		
+		width: 60%;		
+		box-sizing: border-box;		
+		text-align: center;		
+		margin: 0.1% auto;		
+		display: flex;		
+		justify-content: center;		
+		text-align: center;		
+	}			
+				
+	.kana-section-letters-sounds{			
+		color: blue;		
+		font-size: 15px;		
+		padding: 1%;		
+		font-weight: bold;		
+		width: 60%;		
+		box-sizing: border-box;		
+		text-align: center;		
+		margin: 0.1% auto;		
+		display: flex;		
+		justify-content: center;		
+		text-align: center;		
+	}			
+}
